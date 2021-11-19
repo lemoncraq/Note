@@ -18,12 +18,12 @@ namespace NoteApp.UI
 
         private void EmailLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("mailto:otulissa2012@yandex.ru");
+            Process.Start("mailto:makovskiynd@yandex.com");
         }
 
         private void GitHubLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/AkhromenkoDarya/NoteApp");
+            Process.Start("https://github.com/pelemew/Note");
         }
     }
 }

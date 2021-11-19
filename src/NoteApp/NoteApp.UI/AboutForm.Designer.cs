@@ -44,7 +44,7 @@ namespace NoteApp.UI
             this.NameLabel.Location = new System.Drawing.Point(15, 15);
             this.NameLabel.Margin = new System.Windows.Forms.Padding(0, 0, 3, 3);
             this.NameLabel.Name = "NameLabel";
-            this.NameLabel.Size = new System.Drawing.Size(115, 29);
+            this.NameLabel.Size = new System.Drawing.Size(92, 24);
             this.NameLabel.TabIndex = 0;
             this.NameLabel.Text = "NoteApp";
             // 
@@ -54,7 +54,7 @@ namespace NoteApp.UI
             this.VersionLabel.Location = new System.Drawing.Point(17, 50);
             this.VersionLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.VersionLabel.Name = "VersionLabel";
-            this.VersionLabel.Size = new System.Drawing.Size(55, 17);
+            this.VersionLabel.Size = new System.Drawing.Size(48, 16);
             this.VersionLabel.TabIndex = 1;
             this.VersionLabel.Text = "v. 1.0.0";
             // 
@@ -64,9 +64,9 @@ namespace NoteApp.UI
             this.AuthorLabel.Location = new System.Drawing.Point(15, 109);
             this.AuthorLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.AuthorLabel.Name = "AuthorLabel";
-            this.AuthorLabel.Size = new System.Drawing.Size(179, 17);
+            this.AuthorLabel.Size = new System.Drawing.Size(154, 16);
             this.AuthorLabel.TabIndex = 2;
-            this.AuthorLabel.Text = "Author: Akhromenko Darya";
+            this.AuthorLabel.Text = "Author: Makovskiy Nikita";
             // 
             // EmailLinkLabel
             // 
@@ -75,10 +75,10 @@ namespace NoteApp.UI
             this.EmailLinkLabel.Location = new System.Drawing.Point(15, 161);
             this.EmailLinkLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.EmailLinkLabel.Name = "EmailLinkLabel";
-            this.EmailLinkLabel.Size = new System.Drawing.Size(274, 20);
+            this.EmailLinkLabel.Size = new System.Drawing.Size(289, 20);
             this.EmailLinkLabel.TabIndex = 3;
             this.EmailLinkLabel.TabStop = true;
-            this.EmailLinkLabel.Text = "e-mail for feedback: otulissa2012@yandex.ru";
+            this.EmailLinkLabel.Text = "e-mail for feedback: makovskiynd@yandex.com";
             this.EmailLinkLabel.UseCompatibleTextRendering = true;
             this.EmailLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.EmailLinkLabel_LinkClicked);
             // 
@@ -89,10 +89,10 @@ namespace NoteApp.UI
             this.GitHubLinkLabel.Location = new System.Drawing.Point(15, 187);
             this.GitHubLinkLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.GitHubLinkLabel.Name = "GitHubLinkLabel";
-            this.GitHubLinkLabel.Size = new System.Drawing.Size(221, 20);
+            this.GitHubLinkLabel.Size = new System.Drawing.Size(140, 20);
             this.GitHubLinkLabel.TabIndex = 7;
             this.GitHubLinkLabel.TabStop = true;
-            this.GitHubLinkLabel.Text = "GitHub: AkhromenkoDarya/NoteApp";
+            this.GitHubLinkLabel.Text = "GitHub: pelemew/Note";
             this.GitHubLinkLabel.UseCompatibleTextRendering = true;
             this.GitHubLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.GitHubLinkLabel_LinkClicked);
             // 
@@ -102,9 +102,9 @@ namespace NoteApp.UI
             this.CopyrightsLabel.Location = new System.Drawing.Point(15, 309);
             this.CopyrightsLabel.Margin = new System.Windows.Forms.Padding(0, 3, 3, 0);
             this.CopyrightsLabel.Name = "CopyrightsLabel";
-            this.CopyrightsLabel.Size = new System.Drawing.Size(179, 17);
+            this.CopyrightsLabel.Size = new System.Drawing.Size(152, 16);
             this.CopyrightsLabel.TabIndex = 8;
-            this.CopyrightsLabel.Text = "2021 Akhromenko Darya ©";
+            this.CopyrightsLabel.Text = "2021 Makovskiy Nikita ©";
             // 
             // AboutForm
             // 
