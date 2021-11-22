@@ -23,7 +23,7 @@ namespace NoteApp.Model
         /// константой <see cref="Filename"/>. 
         /// </summary>
         public static string DefaultPath { get; set; } = Environment.GetFolderPath(
-            Environment.SpecialFolder.ApplicationData) + @"\Akhromenko\NoteApp\" +
+            Environment.SpecialFolder.ApplicationData) + @"\Makovskiy\NoteApp\" +
             Filename;
 
         /// <summary>
