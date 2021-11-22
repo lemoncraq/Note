@@ -48,7 +48,7 @@ namespace NoteApp.UnitTests
         /// Путь к файлу проекта <see cref="Project"/> по умолчанию.
         /// </summary>
         private readonly string _defaultPath = Environment.GetFolderPath(
-            Environment.SpecialFolder.ApplicationData) + @"\Akhromenko\NoteApp\NoteApp.notes";
+            Environment.SpecialFolder.ApplicationData) + @"\Makovskiy\NoteApp\NoteApp.notes";
 
         [Test(Description = "Позитивный тест геттера DefaultPath")]
         public void DefaultPath_CorrectValue_ReturnsSameValue()
