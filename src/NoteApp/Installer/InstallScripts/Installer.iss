@@ -8,7 +8,7 @@
 #define AppIconName "NoteIcon.ico"
 
 [Setup]
-AppId = {{00C4B2FA-21AC-4231-B192-D10D7274C346}
+AppId = {{93331FE0-E1CC-409F-A52F-354CE94D108F}
 AppName = {#MyAppName}
 AppVersion = {#MyAppVersion}
 ;AppVerName = {#MyAppName} {#MyAppVersion}
