@@ -214,5 +214,34 @@ namespace NoteApp.UnitTests
             // Assert
             Assert.AreEqual(note, actual);
         }
+
+        [Test(Description = "Тест конструктора Note без параметров")]
+        public void TestNoteConstructor_WithoutParameters()
+        {
+            var note = new Note();
+            var isNull = note == null;
+
+            Assert.IsFalse(isNull, "Конструктор не создал экземпляр класса Note");
+        }
+
+        [Test(Description = "Тест конструктора Note только с категорией")]
+        public void TestNoteConstructor_WithCategory()
+        {
+            var note = new Note(NoteCategory.Home);
+            var isNull = note == null;
+
+            Assert.IsFalse(isNull, "Конструктор не создал экземпляр класса Note");
+        }
+
+        [Test(Description = "Тест метода сравнения двух объектов")]
+        public void TestEquals_CorrectValue()
+        {
+            var note = InitNote();
+            var actual = (Note)note.Clone();
+            var isEqual = actual.Equals(note);
+
+            Assert.IsFalse(!isEqual,
+                "Метод сравнения должен вернуть истину, так как объекты идентичны");
+        }
     }
 }
