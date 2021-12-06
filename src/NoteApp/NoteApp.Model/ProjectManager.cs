@@ -5,10 +5,10 @@ using Newtonsoft.Json;
 namespace NoteApp.Model
 {
     /// <summary>
-    /// <para>Менеджер проекта.</para>
-    /// <para>Реализует метод для сохранения объекта <see cref="Project"/> в файл, 
+    /// Менеджер проекта.
+    /// Реализует метод для сохранения объекта <see cref="Project"/> в файл, 
     /// метод загрузки объекта <see cref="Project"/> из файла, а также метод, задающий 
-    /// настройки для форматирования результирующего файла.</para>
+    /// настройки для форматирования результирующего файла.
     /// </summary>
     public static class ProjectManager
     {
@@ -59,9 +59,9 @@ namespace NoteApp.Model
         /// Метод, осуществляющий загрузку данных из файла, имя которого задано закрытой 
         /// константой <see cref="Filename"/>, в объект <see cref="Project"/>.
         /// </summary>
-        /// <param name="path"><para>Путь к файлу, из которого осуществляется загрузка 
-        /// данных.</para> 
-        /// <para>Путь по умолчанию указан в <see cref="DefaultPath"/>.</para></param>
+        /// <param name="path">Путь к файлу, из которого осуществляется загрузка 
+        /// данных.
+        /// Путь по умолчанию указан в <see cref="DefaultPath"/>.</param>
         /// <returns>Объект <see cref="Project"/>, в который помещен результат 
         /// десериализации.</returns>
         public static Project LoadFromFile(string path)
